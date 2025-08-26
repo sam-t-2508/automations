@@ -5,7 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "sample": "tsx src/sample.ts",
     "dev": "tsx watch src/app.ts"
   },
   "author": "",
