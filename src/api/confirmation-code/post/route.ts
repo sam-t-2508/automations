@@ -7,9 +7,8 @@ Gmail APIを使用してApple Id登録の過程で送られてくるメールア
 
 ※ 注意  
 - 初回リクエスト時に認証が必要です  
-- 認証は特定のGmailアドレスのみ可能です  
-- これは、Google Cloudの制約です（というか、全てのGmailアドレスに対応しようとするとGoogleの審査を通す必要があって大変です）  
-- Rate limitに注意してください。審査通した正式版を利用してないので、より厳しい制限がかかっている可能性があります
+- 認証は特定のGmailアドレスのみ可能としています  
+- これは、Google Cloudの制約です（全てのGmailアドレスに対応しようとするとGoogleの審査を通す必要があります。数万円の費用と数週間の審査が必要。）  
 `
 
 export const route: ReturnType<typeof createRoute> = createRoute({
