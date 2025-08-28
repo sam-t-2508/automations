@@ -7,7 +7,7 @@
 ## Quick Start
 ※ 試してないから、やってみてうまくいかない場合は教えてください
 
-前提として、root直下にcredentials.jsonの配置が必要（共有方法はなんか考える）
+前提）root直下にcredentials.jsonの配置が必要（共有する必要あり）
 
 ```
 $ pnpm i
